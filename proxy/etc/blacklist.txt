@@ -1,0 +1,16 @@
+#### BLACKLIST README ####
+Add domains or paths to be blacklisted (damn DMCA).
+You can input any part of URL as wildcard, so domain, path, query, also protocol or any combination.
+example.com - this will block ALL requests for domain example.com
+/harry-potter - this will block for example http://example.com/harry-potter-torrent
+example.com/torrent - this will block all paths starting with torrent at domain example.com
+.eu - this will block all TLD .eu domains AND sub-domains where domain starts by eu, for example www.europ.com (TODO fix)
+IMPORTANT: I recommend leaving default blacklist or you will get bad looking DMCAs after few day/weeks.
+#### WRITE BELOW ####
+google.com
+yahoo.com
+facebook.com
+amazon.com
+bing.com
+microsoft.com
+apple.com
